@@ -53,6 +53,10 @@
 - Implement Header component and update App structure
 - Add clsx dependency to package.json.
   - `npm i clsx`
+
+### Step-5
+
+- Add Header
 - Refactor Header component to include responsive navigation and toggle functionality
   - Uses useState to manage the state of the navigation menu (isOpen).
   - Renders a fixed header with a logo and navigation links.
@@ -60,6 +64,9 @@
   - Contains a navigation menu with links to "Features", "Pricing", "FAQ", and "Download".
   - Includes a button to toggle the navigation menu on smaller screens.
   - Displays background images for decorative purposes.
+
+### Step-6
+
 - Add Hero section and Button component with Marker
   - Created a new Hero component to serve as the hero section of the landing page.
   - Imported React, Element and Link from react-scroll, and Button from the components directory.
