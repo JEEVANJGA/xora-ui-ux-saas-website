@@ -45,4 +45,5 @@
 
     export default App
   ```
-  
+- Bring public folder from [Assets](https://github.com/adrianhajdin/xora/blob/main/README.md#-assets) and replace existing public folder.
+- 
