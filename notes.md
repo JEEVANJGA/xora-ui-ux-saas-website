@@ -32,18 +32,42 @@
 - Add the Tailwind directives to your CSS : Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
   - Copy content from [**index.css**](https://github.com/adrianhajdin/xora/blob/main/README.md#%EF%B8%8F-snippets) and update in the local index.css file.
 - Start using Tailwind’s utility classes to style your content.
+
   ```jsx
-  import React from 'react'
+  import React from "react";
 
-    const App = () => {
-    return (
-        <h1 className="text-3xl font-bold underline">
-        Hello world!
-        </h1>
-    )
-    }
+  const App = () => {
+    return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  };
 
-    export default App
+  export default App;
   ```
+
 - Bring public folder from [Assets](https://github.com/adrianhajdin/xora/blob/main/README.md#-assets) and replace existing public folder.
 - Update index.html to change favicon and update page title for SaaS landing page
+
+### Step-4
+
+- Add react-scroll dependency to package.json
+  - `npm install react-scroll`
+- Implement Header component and update App structure
+- Add clsx dependency to package.json.
+  - `npm i clsx`
+- Refactor Header component to include responsive navigation and toggle functionality
+  - Uses useState to manage the state of the navigation menu (isOpen).
+  - Renders a fixed header with a logo and navigation links.
+  - Uses `clsx` to conditionally apply classes based on the `isOpen` state.
+  - Contains a navigation menu with links to "Features", "Pricing", "FAQ", and "Download".
+  - Includes a button to toggle the navigation menu on smaller screens.
+  - Displays background images for decorative purposes.
+- Add Hero section and Button component with Marker
+  - Created a new Hero component to serve as the hero section of the landing page.
+  - Imported React, Element and Link from react-scroll, and Button from the components directory.
+  - Added a section with specific padding classes for different screen sizes.
+  - Used Element from react-scroll to create a scrollable section named "hero".
+  - Included a container div with a maximum width and relative positioning.
+  - Added a caption with the text "Video Editing".
+  - Added a heading with the text "Amazingly Simple" and various responsive styles.
+  - Added a paragraph describing the XORA AI Video Editor.
+  - Included a LinkScroll component to smoothly scroll to the "features" section when the button is clicked.
+  - Added a Button component with an icon and text "Try it now".
