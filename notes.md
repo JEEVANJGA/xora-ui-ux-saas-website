@@ -47,3 +47,12 @@
   ```
 - Bring public folder from [Assets](https://github.com/adrianhajdin/xora/blob/main/README.md#-assets) and replace existing public folder.
 - Update index.html to change favicon and update page title for SaaS landing page
+
+### Step-4
+
+- Add react-scroll dependency to package.json
+  - `npm install react-scroll`
+- Implement Header component and update App structure
+- Add clsx dependency to package.json.
+  - `npm i clsx`
+- Refactor Header component to include responsive navigation and toggle functionality
