@@ -100,3 +100,6 @@
     - A decorative vertical line.
     - A border that changes on hover.
 - These changes enhance the landing page by adding a visually appealing features section that dynamically displays feature information from the constants file.
+
+### Step-8
+- Enhance Header component with scroll detection and dynamic styling
