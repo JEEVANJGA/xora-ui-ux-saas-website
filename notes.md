@@ -78,3 +78,25 @@
   - Added a paragraph describing the XORA AI Video Editor.
   - Included a LinkScroll component to smoothly scroll to the "features" section when the button is clicked.
   - Added a Button component with an icon and text "Try it now".
+
+### Step-7
+
+- Add Features Component
+  - Created a new Features component to display a list of features.
+- Imported Dependencies:
+  - Imported React from "react".
+  - Imported Element from "react-scroll".
+  - Imported features from the constants file.
+  - Imported Button from the components directory.
+- Implemented Features Section:
+  - Added a section element to contain the features.
+  - Used Element from react-scroll to create a scrollable section named "features".
+  - Added a container div with specific classes for styling.
+  - Used a ul element to list the features.
+  - Mapped over the features array to dynamically create li elements for each feature.
+  - Each li element includes:
+    - An icon image with specific styles.
+    - A title displayed as a heading with specific styles.
+    - A decorative vertical line.
+    - A border that changes on hover.
+- These changes enhance the landing page by adding a visually appealing features section that dynamically displays feature information from the constants file.
