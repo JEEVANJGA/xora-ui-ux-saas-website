@@ -53,6 +53,10 @@
 - Implement Header component and update App structure
 - Add clsx dependency to package.json.
   - `npm i clsx`
+
+### Step-5
+
+- Add Header
 - Refactor Header component to include responsive navigation and toggle functionality
   - Uses useState to manage the state of the navigation menu (isOpen).
   - Renders a fixed header with a logo and navigation links.
@@ -60,6 +64,9 @@
   - Contains a navigation menu with links to "Features", "Pricing", "FAQ", and "Download".
   - Includes a button to toggle the navigation menu on smaller screens.
   - Displays background images for decorative purposes.
+
+### Step-6
+
 - Add Hero section and Button component with Marker
   - Created a new Hero component to serve as the hero section of the landing page.
   - Imported React, Element and Link from react-scroll, and Button from the components directory.
@@ -71,3 +78,25 @@
   - Added a paragraph describing the XORA AI Video Editor.
   - Included a LinkScroll component to smoothly scroll to the "features" section when the button is clicked.
   - Added a Button component with an icon and text "Try it now".
+
+### Step-7
+
+- Add Features Component
+  - Created a new Features component to display a list of features.
+- Imported Dependencies:
+  - Imported React from "react".
+  - Imported Element from "react-scroll".
+  - Imported features from the constants file.
+  - Imported Button from the components directory.
+- Implemented Features Section:
+  - Added a section element to contain the features.
+  - Used Element from react-scroll to create a scrollable section named "features".
+  - Added a container div with specific classes for styling.
+  - Used a ul element to list the features.
+  - Mapped over the features array to dynamically create li elements for each feature.
+  - Each li element includes:
+    - An icon image with specific styles.
+    - A title displayed as a heading with specific styles.
+    - A decorative vertical line.
+    - A border that changes on hover.
+- These changes enhance the landing page by adding a visually appealing features section that dynamically displays feature information from the constants file.
