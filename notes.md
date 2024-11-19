@@ -103,3 +103,6 @@
 
 ### Step-8
 - Enhance Header component with scroll detection and dynamic styling
+- Add react-countup dependency for animated number counting
+  - run `npm i react-countup`
+- 
