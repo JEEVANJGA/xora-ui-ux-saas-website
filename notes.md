@@ -100,3 +100,26 @@
     - A decorative vertical line.
     - A border that changes on hover.
 - These changes enhance the landing page by adding a visually appealing features section that dynamically displays feature information from the constants file.
+
+### Step-8
+- Enhance Header component with scroll detection and dynamic styling
+- Add react-countup dependency for animated number counting
+  - run `npm i react-countup`
+- 
+### Step-9
+
+- Add Pricing Component
+  - Created a new Pricing component to display different pricing plans.
+  - Imported necessary dependencies such as React and clsx.
+  - Implemented the Pricing component with the following features:
+    - A section to contain the pricing plans.
+    - Conditional rendering of background elements.
+    - Dynamic styling based on the index of the pricing plan.
+    - Display of plan logos with different sizes and positions.
+    - Structured layout for each pricing plan with specific styles.
+- Integrate Pricing Component into App
+  - Imported the Pricing component into the main application file (e.g., App.jsx).
+  - Added the Pricing component to the application's component tree to ensure it is rendered on the page.
+- Update Header Navigation Link to Lowercase
+  - Modified the Header component to update the navigation links to use lowercase text.
+  - Ensured that the navigation links are consistent with the desired styling and format.
