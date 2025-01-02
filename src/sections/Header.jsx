@@ -82,9 +82,9 @@ const Header = () => {
                   </LinkScroll>
                 </li>
                 <li className="nav-li">
-                  <NavLink title={"FAQ"} />
+                  <NavLink title={"faq"} />
                   <div className="dot" />
-                  <NavLink title={"Download"} />
+                  <NavLink title={"download"} />
                 </li>
               </ul>
             </nav>
