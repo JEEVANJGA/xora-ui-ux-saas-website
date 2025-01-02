@@ -123,3 +123,33 @@
 - Update Header Navigation Link to Lowercase
   - Modified the Header component to update the navigation links to use lowercase text.
   - Ensured that the navigation links are consistent with the desired styling and format.
+
+### Step-10
+
+- Add react-slidedown dependency
+  - run `npm i react-slidedown --legacy-peer-deps`
+- Add Faq Component
+  - Created a new Faq component to display frequently asked questions.
+  - Imported necessary dependencies such as React and Element from react-scroll.
+  - Imported the faq data from the constants file.
+  - Imported the FaqItem component.
+  - Implemented the Faq component with the following features:
+    - A section to contain the FAQ items.
+    - Used Element from react-scroll to create a scrollable section named "faq".
+    - Divided the FAQ items into two columns for better layout and readability.
+    - Used the faq array to dynamically create FaqItem components for each FAQ item.
+    - Added a vertical line between the two columns for visual separation.
+    - Added a heading and a subheading to the FAQ section.
+  - Added FaqItem Component:
+    - Created a new FaqItem component to display individual FAQ items.
+    - Imported necessary dependencies such as React.
+    - Implemented the FaqItem component with the following features:
+      - A container for each FAQ item.
+      - Displayed the question and answer for each FAQ item.
+      - Added styles for better readability and visual appeal.
+  - Integrated Faq Component into App:
+    - Imported the Faq component into the main application file (e.g., App.jsx).
+    - Added the Faq component to the application's component tree to ensure it is rendered on the page.
+  - Updated Header Navigation Link to Include FAQ:
+    - Modified the Header component to include a navigation link to the FAQ section.
+    - Ensured that the navigation link is consistent with the desired styling and format.
