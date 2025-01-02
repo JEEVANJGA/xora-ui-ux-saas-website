@@ -195,3 +195,18 @@
   - Integrate Download Component into App
     - Imported the Download component into the main application file (e.g., App.jsx).
     - Added the Download component to the application's component tree to ensure it is rendered on the page.
+
+    ### Step-13
+
+    - Add Footer Component
+      - Created a new Footer component to display the footer section of the website.
+      - Imported necessary dependencies such as socials from the constants file.
+    - Implement Footer Section
+      - Added a footer element to contain the footer content.
+      - Used a container div with specific classes for styling.
+      - Added a copyright notice and links to the privacy policy and terms of use.
+      - Created a list of social media icons using the socials array.
+      - Styled each social media icon with specific classes for better visual appeal.
+    - Integrate Footer Component into App
+      - Imported the Footer component into the main application file (e.g., App.jsx).
+      - Added the Footer component to the application's component tree to ensure it is rendered on the page.
