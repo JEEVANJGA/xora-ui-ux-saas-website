@@ -47,7 +47,7 @@ const Header = () => {
             "lg:hidden flex-1 z-2 transition-transform duration-500 cursor-pointer"
           )}
         >
-          <img src="/images/xora.svg" width={115} height={55} alt="logo" />
+          <img src={`${import.meta.env.BASE_URL}images/xora.svg`} width={115} height={55} alt="logo" />
         </LinkScroll>
         <div
           className={clsx(
@@ -74,7 +74,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/images/xora.svg"
+                      src={`${import.meta.env.BASE_URL}images/xora.svg`}
                       width={160}
                       height={55}
                       alt="logo"
@@ -90,14 +90,14 @@ const Header = () => {
             </nav>
             <div className="lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90">
               <img
-                src="/images/bg-outlines.svg"
+                src={`${import.meta.env.BASE_URL}images/bg-outlines.svg`}
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src={`${import.meta.env.BASE_URL}images/bg-outlines-fill.png`}
                 width={960}
                 height={380}
                 alt="outline"
@@ -111,7 +111,7 @@ const Header = () => {
           onClick={() => setIspen((prevState) => !prevState)}
         >
           <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`${import.meta.env.BASE_URL}images/${isOpen ? "close" : "magic"}.svg`}
             alt="magic"
             className="size-1/2 object-contain"
           />

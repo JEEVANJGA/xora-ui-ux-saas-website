@@ -1,4 +1,3 @@
-import React from "react";
 import { Element, Link as LinkScroll } from "react-scroll";
 import Button from "../components/Button";
 
@@ -24,7 +23,7 @@ const Hero = () => {
           </div>
           <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
             <img
-              src="/images/hero.png"
+              src={`${import.meta.env.BASE_URL}images/hero.png`}
               className="size-1230 max-lg:h-auto"
               alt="hero"
             />

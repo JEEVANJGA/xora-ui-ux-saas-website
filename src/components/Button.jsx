@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import React from "react";
 import Marker from "./Marker";
 
 const Button = ({
@@ -18,7 +17,7 @@ const Button = ({
         </span>
         {icon && (
           <img
-            src={icon}
+            src={`${import.meta.env.BASE_URL}${icon}`}
             alt="circle"
             className="size-10 mr-5 object-contain z-10"
           />
