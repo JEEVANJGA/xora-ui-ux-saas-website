@@ -17,7 +17,7 @@ const Features = () => {
                   <div className="-ml-3 mb-12 flex items-center justify-center flex-col">
                     <div className="w-0.5  h-16 bg-s3" />
                     <img
-                      src={icon}
+                      src={`${import.meta.env.BASE_URL}${icon}`}
                       alt={title}
                       className="size-28 object-contain"
                     />
@@ -38,7 +38,7 @@ const Features = () => {
                   <div className="absolute top-8 bottom-0 left-1/2 bg-s3/20 w-[1px] h-full z-10" />
                   <div className="flex items-center justify-center mx-auto mb-3 border-2  border-s2 rounded-full hover:border-s4 transition-all duration-500 shadow-500 size-20">
                     <img
-                      src={icon}
+                      src={`${import.meta.env.BASE_URL}${icon}`}
                       alt={title}
                       className="size-17/20 object-contain z-20"
                     />

@@ -22,7 +22,7 @@ const Footer = () => {
               <li key={id}>
                 <a href={url} className="social-icon">
                   <img
-                    src={icon}
+                    src={`${import.meta.env.BASE_URL}${icon}`}
                     alt={title}
                     className="size-1/3 object-contain"
                   />

@@ -37,14 +37,14 @@ const Pricing = () => {
             </div>
             <div className="pricing-bg">
               <img
-                src="/images/bg-outlines.svg"
+                src={`${import.meta.env.BASE_URL}images/bg-outlines.svg`}
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src={`${import.meta.env.BASE_URL}images/bg-outlines-fill.png`}
                 width={960}
                 height={380}
                 alt="outline"
@@ -69,7 +69,7 @@ const Pricing = () => {
                   )}
                 >
                   <img
-                    src={plan.logo}
+                    src={`${import.meta.env.BASE_URL}${plan.logo}`}
                     alt={plan.title}
                     className={clsx(
                       "object-contain drop-shadow-2xl",
@@ -127,7 +127,7 @@ const Pricing = () => {
                       className="relative flex items-center gap-5"
                     >
                       <img
-                        src={"/images/check.png"}
+                        src={`${import.meta.env.BASE_URL}images/check.png`}
                         alt="check"
                         className="size-10 object-contain"
                       />

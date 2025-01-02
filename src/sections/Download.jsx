@@ -15,7 +15,7 @@ const Download = () => {
             <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex256 max-md:flex-100">
               <div className="mb-10">
                 <img
-                  src="/images/xora.svg"
+                  src={`${import.meta.env.BASE_URL}images/xora.svg`}
                   width={160}
                   height={55}
                   alt="xora"
@@ -41,7 +41,7 @@ const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src={"/images/lines.svg"}
+                        src={`${import.meta.env.BASE_URL}images/lines.svg`}
                         alt="lines"
                         className="absolute size-13/20 object-contain"
                       />
@@ -60,7 +60,7 @@ const Download = () => {
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
                   <img
-                    src="/images/screen.jpg"
+                    src={`${import.meta.env.BASE_URL}images/screen.jpg`}
                     width={855}
                     height={655}
                     alt="screen"
@@ -74,7 +74,7 @@ const Download = () => {
           <ul className="mt-24 flex justify-center max-lg:hidden">
             {logos.map(({ id, url, width, height, title }) => (
               <li key={id} className="mx-10">
-                <img src={url} width={width} height={height} alt={title} />
+                <img src={`${import.meta.env.BASE_URL}${url}`} width={width} height={height} alt={title} />
               </li>
             ))}
           </ul>
