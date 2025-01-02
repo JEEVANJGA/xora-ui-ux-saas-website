@@ -211,3 +211,15 @@
 - Integrate Footer Component into App
   - Imported the Footer component into the main application file (e.g., App.jsx).
   - Added the Footer component to the application's component tree to ensure it is rendered on the page.
+
+### Step-14
+- setup gh page settings
+- Added deploy.yml file to handle CI/CD actions for : Deploy React Vite App to GitHub Pages
+- updated vite.config.js file to add the base url.
+  `base: '/<REPOSITORY_NAME>/', // Replace <REPOSITORY_NAME> with your repo name`
+- Update image references, to load images from public assets location, in reference to the base url provided.
+- push changes to validate the deployment action and review the changes in the deployed site.
+
+## Deployed site
+
+- After following above set of steps, I was able to successfully deploy the site : [Xora Saas Website](https://jeevanjga.github.io/xora-ui-ux-saas-website/)
