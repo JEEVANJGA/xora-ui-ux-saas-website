@@ -102,6 +102,7 @@
 - These changes enhance the landing page by adding a visually appealing features section that dynamically displays feature information from the constants file.
 
 ### Step-8
+
 - Enhance Header component with scroll detection and dynamic styling
 - Add react-countup dependency for animated number counting
   - run `npm i react-countup`
@@ -178,35 +179,35 @@
   - Imported the Testimonials component into the main application file (e.g., App.jsx).
   - Added the Testimonials component to the application's component tree to ensure it is rendered on the page.
 
-  ### Step-12
+### Step-12
 
-  - Add Download Component
-    - Created a new Download component to provide download options for different platforms.
-    - Imported necessary dependencies such as Element from react-scroll, links and logos from the constants file, and Marker from the components directory.
-  - Implement Download Section
-    - Added a section element to contain the download options.
-    - Used Element from react-scroll to create a scrollable section named "download".
-    - Added a container div with specific classes for styling.
-    - Included a logo and a description paragraph.
-    - Created a list of download links for different platforms using the links array.
-    - Styled each download link with specific classes and included the Marker component for visual enhancement.
-    - Added a preview image for the download section.
-    - Created a list of partner logos using the logos array.
-  - Integrate Download Component into App
-    - Imported the Download component into the main application file (e.g., App.jsx).
-    - Added the Download component to the application's component tree to ensure it is rendered on the page.
+- Add Download Component
+  - Created a new Download component to provide download options for different platforms.
+  - Imported necessary dependencies such as Element from react-scroll, links and logos from the constants file, and Marker from the components directory.
+- Implement Download Section
+  - Added a section element to contain the download options.
+  - Used Element from react-scroll to create a scrollable section named "download".
+  - Added a container div with specific classes for styling.
+  - Included a logo and a description paragraph.
+  - Created a list of download links for different platforms using the links array.
+  - Styled each download link with specific classes and included the Marker component for visual enhancement.
+  - Added a preview image for the download section.
+  - Created a list of partner logos using the logos array.
+- Integrate Download Component into App
+  - Imported the Download component into the main application file (e.g., App.jsx).
+  - Added the Download component to the application's component tree to ensure it is rendered on the page.
 
-    ### Step-13
+### Step-13
 
-    - Add Footer Component
-      - Created a new Footer component to display the footer section of the website.
-      - Imported necessary dependencies such as socials from the constants file.
-    - Implement Footer Section
-      - Added a footer element to contain the footer content.
-      - Used a container div with specific classes for styling.
-      - Added a copyright notice and links to the privacy policy and terms of use.
-      - Created a list of social media icons using the socials array.
-      - Styled each social media icon with specific classes for better visual appeal.
-    - Integrate Footer Component into App
-      - Imported the Footer component into the main application file (e.g., App.jsx).
-      - Added the Footer component to the application's component tree to ensure it is rendered on the page.
+- Add Footer Component
+  - Created a new Footer component to display the footer section of the website.
+  - Imported necessary dependencies such as socials from the constants file.
+- Implement Footer Section
+  - Added a footer element to contain the footer content.
+  - Used a container div with specific classes for styling.
+  - Added a copyright notice and links to the privacy policy and terms of use.
+  - Created a list of social media icons using the socials array.
+  - Styled each social media icon with specific classes for better visual appeal.
+- Integrate Footer Component into App
+  - Imported the Footer component into the main application file (e.g., App.jsx).
+  - Added the Footer component to the application's component tree to ensure it is rendered on the page.
