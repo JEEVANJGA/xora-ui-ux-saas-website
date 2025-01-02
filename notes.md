@@ -158,3 +158,22 @@
   - Updated Header Navigation Link to Include FAQ:
     - Modified the Header component to include a navigation link to the FAQ section.
     - Ensured that the navigation link is consistent with the desired styling and format.
+
+### Step-11
+
+- Add Testimonials Component
+  - Created a new Testimonials component to display user testimonials.
+  - Imported necessary dependencies such as testimonials from the constants file and TestimonialItem from the components directory.
+- Implement Testimonials Section
+  - Added a section element to contain the testimonials.
+  - Used a container div with specific classes for styling.
+  - Added a heading and a subheading to the testimonials section.
+  - Divided the testimonials into two columns for better layout and readability.
+  - Used the testimonials array to dynamically create TestimonialItem components for each testimonial.
+  - Each TestimonialItem component includes:
+    - The testimonial text.
+    - The author's name and other relevant details.
+    - Specific styles for better readability and visual appeal.
+- Integrate Testimonials Component into App
+  - Imported the Testimonials component into the main application file (e.g., App.jsx).
+  - Added the Testimonials component to the application's component tree to ensure it is rendered on the page.
