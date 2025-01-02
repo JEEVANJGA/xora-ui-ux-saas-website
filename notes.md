@@ -105,7 +105,7 @@
 - Enhance Header component with scroll detection and dynamic styling
 - Add react-countup dependency for animated number counting
   - run `npm i react-countup`
-- 
+
 ### Step-9
 
 - Add Pricing Component
@@ -143,10 +143,15 @@
   - Added FaqItem Component:
     - Created a new FaqItem component to display individual FAQ items.
     - Imported necessary dependencies such as React.
+    - Imported SlideDown from react-slidedown to add slide-down animation for the FAQ answers.
     - Implemented the FaqItem component with the following features:
       - A container for each FAQ item.
       - Displayed the question and answer for each FAQ item.
       - Added styles for better readability and visual appeal.
+      - Used SlideDown to animate the display of the answer when the question is clicked.
+  - Installed react-slidedown Package:
+    - Added react-slidedown to the project dependencies.
+    - Ran `npm install react-slidedown` to install the package.
   - Integrated Faq Component into App:
     - Imported the Faq component into the main application file (e.g., App.jsx).
     - Added the Faq component to the application's component tree to ensure it is rendered on the page.
